@@ -1,0 +1,23 @@
+.background{
+    background-color: #f5f5f5;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navbar{
+    background-color:#f5f5f5;
+}
+
+.nav-link{
+    color: #121212;
+}
+
+.nav-link:hover{
+    color: #be7638;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
