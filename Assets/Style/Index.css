@@ -48,3 +48,44 @@
 .navbar-collapse{
     justify-content: end;
 }
+
+.rectangle{
+    height: 500px;
+    width: 100%;
+    background-color: #121212;
+}
+
+.profileimage{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: Poppins-Medium;
+}
+
+.line{
+    height: 6px;
+    width: 50%;
+    background-color: #121212;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.sub-title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Poppins-Regular;
+    font-size: 20pt;
+}
