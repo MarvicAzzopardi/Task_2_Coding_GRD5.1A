@@ -63,16 +63,19 @@
 
 .title{
     margin-left: 100px;
+    font-family: Poppins-Bold;
 }
 
 .title2{
     margin-left: 200px;
     margin-bottom: 30px;
+    font-family: Poppins-Bold;
 }
 
 .description{
     text-align: center;
     padding: 30px;
+    font-family: Poppins-Medium;
 }
 
 #btn-back-to-top{
@@ -82,19 +85,20 @@
     display: none;
     }
 
-.btn-dark{
+.btn-danger{
     border-radius: 50px;
-    background-color: #f5f5f5;
     border-color: #f5f5f5;
+    background-color: #f5f5f5;
     color: #121212;
     font-family: Poppins-Regular;
-    box-shadow: 0px 0px 10px #121212;
+    box-shadow: 0px 0px 8px #121212;
 }
 
-.btn-dark:hover{
+.btn-danger:hover{
     border-radius: 50px;
+    border-color: #be7638;
     background-color: #be7638;
     color: #f5f5f5;
     font-family: Poppins-Regular;
-    box-shadow: 0px 0px 10px #121212;
+    box-shadow: 0px 0px 8px #121212;
 }
