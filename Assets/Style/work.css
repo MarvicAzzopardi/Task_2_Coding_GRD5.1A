@@ -81,24 +81,54 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-    }
+}
 
-.overlay {
+.text-center{
+    font-family: Poppins-Bold;
+    padding-bottom: 20px;
+}
+
+.overlay{
     color: #f5f5f5;
     opacity: 100;
     transition: opacity 0.25s;
+    border-radius: 50px;
 }
 
 .overlay:hover{
     opacity: 0.5;
 }
 
-#overlay {
+#overlay{
     color: #f5f5f5;
     opacity: 100;
     transition: opacity 0.25s;
+    border-radius: 50px;
+}
+
+#overlay1{
+    color: #f5f5f5;
+    opacity: 100;
+    transition: opacity 0.25s;
+    border-radius: 50px;
+}
+
+#overlay2{
+    color: #f5f5f5;
+    opacity: 100;
+    transition: opacity 0.25s;
+    border-radius: 50px;
 }
 
 #overlay:hover{
     opacity: 0.5;
 }
+
+#overlay1:hover{
+    opacity: 0.5;
+}
+
+#overlay2:hover{
+    opacity: 0.5;
+}
+
