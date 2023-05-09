@@ -28,8 +28,8 @@
     padding-right: 20px;
 }
 
-.nav-link:active{
-    color: #be7638;
+.active{
+    color: #be7638 !important;
     font-family: Poppins-Bold;
 }
 
@@ -50,9 +50,13 @@
 }
 
 .rectangle{
-    height: 500px;
+    height: calc(80vh-105px);
     width: 100%;
     background-color: #121212;
+}
+
+.homeFooter{
+    height: 15vh;
 }
 
 .profileimage{
@@ -60,7 +64,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
 }
 
 .container-fluid{
@@ -70,7 +73,7 @@
 
 .title{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5em;
     margin-bottom: 30px;
     font-family: Poppins-Medium;
 }
