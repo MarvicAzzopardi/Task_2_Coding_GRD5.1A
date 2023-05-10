@@ -1,0 +1,104 @@
+/* Typeface that is going to be used */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../Fonts/Poppins-Regular.otf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../Fonts/Poppins-Medium.otf');
+}
+
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../Fonts/Poppins-Bold.otf');
+}
+
+/* Navbar styling */
+.background {
+    background-color: #f5f5f5;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    background-color:#f5f5f5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.active {
+    color: #be7638 !important;
+    font-family: Poppins-Bold;
+}
+
+.nav-link {
+    color: #121212;
+    font-family: Poppins-Medium;
+    font-size: large;
+    text-indent: 20px;
+}
+
+.nav-link:hover {
+    color: #be7638;
+    font-family: Poppins-Medium;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+/* Project 1 Page styling */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.btn-danger {
+    border-radius: 50px;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    color: #121212;
+    font-family: Poppins-Regular;
+    box-shadow: 0px 0px 15px #00000070;
+}
+
+.btn-danger:hover {
+    border-radius: 50px;
+    border-color: #be7638;
+    background-color: #be7638;
+    color: #f5f5f5;
+    font-family: Poppins-Regular;
+    box-shadow: 0px 0px 15px #00000070;
+}
+
+.project1title{
+    font-family: Poppins-Bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.description{
+    font-family: Poppins-Regular;
+    text-align: justify
+}
+
+.titles{
+    font-family: Poppins-Bold;
+}
+
+.smalltext{
+    font-family: Poppins-Medium;
+}
+
+.col{
+    margin-right: 5%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
