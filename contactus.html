@@ -47,20 +47,33 @@
 
     <!-- This is the contact form  -->
     <div class="Form-Container">
-        <form class="row g-3" action="mailto:marvicazzopardi2003@gmail.com" onsubmit="return validateform();">
+        <form class="row g-3; was-validated" action="mailto:marvicazzopardi2003@gmail.com" onsubmit="return validateform();">
             <div class="col-md-8" >
                 <h1 class="contactustitle">Contact Us</h1>
+
                 <label for="validationServer01" class="form-label">Full Name</label>
-                <input type="text" class="form-control is-valid" id="validationServer01">
+                <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="validationServer01" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div class="invalid-feedback">
+                        Please type your full name
+                    </div>
+                </div>
 
                 <label for="validationServerUsername" class="form-label">Email Address</label>
                 <div class="input-group has-validation">
                     <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                    <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-
+                    <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div class="invalid-feedback">
+                        Please type your email
+                    </div>
                 </div>
-                <label for="validationServer02" class="form-label">Enter Message</label>
-                <textarea class="form-control is-valid" id="validationServer02"></textarea>
+                <label for="validationServerTextarea" class="form-label">Enter Message</label>
+                <div class="input-group has-validation">
+                    <textarea class="form-control" id="validationServerTextarea" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required></textarea>
+                    <div class="invalid-feedback">
+                        Please type your message
+                    </div>
+                </div>
                 <div class="col-12">
                     <button  class="btn btn-primary" type="submit">Submit form</button>
                 </div>
@@ -82,9 +95,8 @@
             <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.0492094770525!2d-74.0061381158357!3d40.738942697619656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259be0da3e08b%3A0x3cfe659fd96e4766!2s222%20W%2014th%20St%20%2315a%2C%20New%20York%2C%20NY%2010011%2C%20USA!5e0!3m2!1sen!2smt!4v1683707515733!5m2!1sen!2smt" width="600" height="470" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-<!-- This is the end of the contact form  -->
+    <!-- This is the end of the contact form  -->
 
-    <script src="Assets/Script/contactus.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
