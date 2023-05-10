@@ -85,9 +85,10 @@
     align-items: flex-start;
 }
 
-.text-center {
+.worktitle {
     font-family: Poppins-Bold;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .workImgBg {
