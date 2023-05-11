@@ -54,7 +54,6 @@
 /* Index Page styling */
 .rectangle{
     height: calc(80vh-105px);
-    width: 100%;
     background-color: #121212;
 }
 
@@ -69,10 +68,6 @@
     margin-right: auto;
 }
 
-.container-fluid{
-    margin: 0%;
-    padding: 0%;
-}
 
 .title{
     text-align: center;
