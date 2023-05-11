@@ -54,7 +54,6 @@
 
 /* Index Page styling */
 .rectangle{
-    height: calc(65vh - 130px);
     background-color: #121212;
 }
 
@@ -63,7 +62,6 @@
 }
 
 .profileimage{
-    padding-top: 70px;
     width: 400px;
     display: block;
     margin-left: auto;
