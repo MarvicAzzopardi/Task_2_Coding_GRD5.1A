@@ -51,7 +51,7 @@
     justify-content: end;
 }
 
-/* Project 2 Page styling */
+/* Project 3 Page styling */
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -83,7 +83,7 @@
     color: #121212;
 }
 
-.project2title{
+.project3title{
     font-family: Poppins-Bold;
     padding-bottom: 20px;
     text-align: center;
@@ -99,16 +99,12 @@
     font-family: Poppins-Bold;
 }
 
-.alltitles{
-    margin-top: 2%;
-}
-
 .smalltext{
     font-family: Poppins-Medium;
 }
 
 .carousel.slide {
-    width: 40%;
-    height: 20%;
+    width: 30%;
+    height: 10%;
     padding-top: 2%;
 }
