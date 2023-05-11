@@ -91,7 +91,8 @@
 
 .description{
     font-family: Poppins-Regular;
-    text-align: justify
+    text-align: justify;
+    padding-top: 2%;
 }
 
 .titles{
@@ -102,9 +103,8 @@
     font-family: Poppins-Medium;
 }
 
-.col{
-    margin-right: 5%;
-    margin-left: 10%;
-    padding-top: 5%;
+.carousel.slide {
+    width: 30%;
+    height: 10%;
+    padding-top: 2%;
 }
-
