@@ -33,7 +33,7 @@
 
 .active {
     color: #be7638 !important;
-    font-family: Poppins-Bold;
+    font-family: Poppins-Medium;
 }
 
 .nav-link {
@@ -45,7 +45,7 @@
 
 .nav-link:hover {
     color: #be7638;
-    font-family: Poppins-Bold;
+    font-family: Poppins-Medium;
 }
 
 .navbar-collapse {
